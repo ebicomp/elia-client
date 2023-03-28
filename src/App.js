@@ -6,7 +6,7 @@ import AssetList from "./components/AssetList"
 import AssertCreate from "./components/AssertCreate"
 import AssertDelete from "./components/AssertDelete"
 import Login from "./components/Login"
-Axios.defaults.baseURL = "https://localhost:7061/api"
+Axios.defaults.baseURL = "http://localhost:8080/api"
 
 function App() {
   return (
